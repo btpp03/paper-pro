@@ -48,12 +48,12 @@ public class App {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nezhak2.btpp.ggff.net");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "443");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "o2vZIankWdvDThUBOx");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "latvi.btpp.ggff.net");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiYmJmMDc4YjVkYjlhMzcwMmFiYTg3OGQyODYxMDUwMDciLCJ0IjoiMDkxYzU4MTgtZTJhMC00MWM4LTlhNjktNzBlYTA2NjdjZWFmIiwicyI6Ik4yWTJNall4TTJVdFpHWTBNaTAwTUdGaExUaGhaVFl0WVdJNVptVXpPREZsTWpRMCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "3027");
+    private static final String HY2_PORT = env("HY2_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
